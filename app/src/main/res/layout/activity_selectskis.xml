@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Usine">
+
+
+    <ImageView
+        android:id="@+id/imgbacked"
+        android:layout_width="49dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="38dp"
+        android:text="@string/continuer"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/imgdup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imgdup"
+        android:layout_width="266dp"
+        android:layout_height="84dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        app:srcCompat="@drawable/scan_button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="370dp"
+        android:text="Générer une nouvelle étiquette"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgdup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

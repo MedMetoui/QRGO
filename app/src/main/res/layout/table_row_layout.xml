@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:id="@+id/table_heading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            >
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <TextView
+                android:id="@+id/tv_user_name"
+
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Aucun  listé"
+                android:text=""
+
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_user_age"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="produit n'a été"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_user_designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="listé"
+                android:text=""
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
